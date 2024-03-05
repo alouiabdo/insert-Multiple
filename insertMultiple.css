@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    max-width: 700px;
+}
+.one{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+label{
+    width: 30%;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+input{
+    width: 50%;
+    margin-bottom: 10px;
+}
+#he{
+    border: none;
+    max-width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(134, 196, 148);
+    font-weight: bolder;
+}
+.green{
+    color: rgb(134, 196, 148);
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+}
+.red{
+    color: red;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+}
